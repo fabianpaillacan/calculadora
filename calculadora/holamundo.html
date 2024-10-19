@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="home.js" defer></script> 
+    <header>Calculadora </header>
+</head>
+
+<body>
+    <section class="contenedor_principal">
+        <input type="text" id="pantalla" disabled value="0">
+            <div class="botones">
+                <button id= "AC" onclick="limpiar()">C</button>
+                <button onclick="agregar('7')">7</button>
+                <button onclick="agregar('8')">8</button>
+                <button onclick="agregar('9')">9</button>
+                <button id="division"onclick="agregar('/')">/</button>
+    
+                <button onclick="agregar('4')">4</button>
+                <button onclick="agregar('5')">5</button>
+                <button onclick="agregar('6')">6</button>
+                <button id="mult" onclick="agregar('*')">*</button>
+    
+                <button onclick="agregar('1')">1</button>
+                <button onclick="agregar('2')">2</button>
+                <button onclick="agregar('3')">3</button>
+                <button id="resta" onclick="agregar('-')">-</button>
+    
+                <button onclick="agregar('0')">0</button>
+                <button id="punto"onclick="agregar('.')">.</button>
+                <button id="suma" onclick="agregar('+')">+</button>
+                <button id="igual"onclick="calcular()">=</button>
+               
+               
+                
+            </div>
+    </section>
+</body>
+</html>
