@@ -1,0 +1,49 @@
+.clima {
+    color: black; font-weight: bold; font-size: 80px; text-align: center;
+}
+body {
+    background-color: #ffff;
+    display: grid;
+    min-height: 100vh;
+  
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clima{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.fecha_hora{
+    display: flex;
+    justify-content: space-around;
+}
+#hora, #fecha{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#ubicacion{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+}
+.caja_clima {
+    width: 1200px;
+    height:500px;
+    background-color: lightblue;
+    border: 3px solid rgb(0, 0, 0); /* Borde de 3px de grosor, sólido, de color azul */
+}
+.caja_info{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+}
