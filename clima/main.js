@@ -52,11 +52,11 @@ function obtenerTiempo(lat, lon){
             const tempMinima = data.list[0].main.temp_min; // Temperatura mínima
             const tempMaxima = data.list[0].main.temp_max; 
 
-            document.getElementById('clima').innerHTML =  temp +'°C';
-            document.getElementById('humedad').innerHTML =  'humedad  -> '+ humedad + '%';
-            document.getElementById('viento').innerHTML =  'viento  -> '+ viento + 'Km/h';
-            document.getElementById('temp_min').innerHTML = 'temperatura minima  -> '+ tempMinima +'°C';
-            document.getElementById('temp_max').innerHTML =   'temperatura maxima  -> '+ tempMaxima +'°C';
+            document.getElementById('clima').innerHTML =  temp +'°C'; 
+            document.getElementById('humedad').innerHTML =  humedad + '%';
+            document.getElementById('velocidad-viento').textContent = viento + ' Km/h';
+            //document.getElementById('temp_min').innerHTML = 'temperatura minima  -> '+ tempMinima +'°C';
+            document.getElementById('temp_max').innerHTML =   tempMaxima +'°C';
             document.getElementById('descripcion_cielo').innerHTML = weatherDescription;
             // Mostramos la temperatura y el clima en el DOM
             /*document.getElementById("clima").textContent =
