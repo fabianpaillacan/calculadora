@@ -12,7 +12,7 @@ function agregar(valor) {
 
 function calcular() {
     pantalla.value = eval(operacion);
-    operacion = pantalla.value; // Actualiza la operación con el resultado
+    operacion = pantalla.value;
 }
 
 function limpiar() {

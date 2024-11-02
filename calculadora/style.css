@@ -1,7 +1,7 @@
 header {
     display: flex;
-    justify-content: center;  /* Centra horizontalmente */
-    align-items: center;      /* Centra verticalmente */
+    justify-content: center;  
+    align-items: center;      
     font-weight: bold;
     color: white;
     font-size: 50px;
@@ -18,9 +18,8 @@ body {
 .contenedor_principal {
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Centrar verticalmente */
-    align-items: center;      /* Centrar horizontalmente */
-    /*background-color: #5C413F;*/
+    justify-content: center;  
+    align-items: center;      
     background-color: rgb(3, 7, 20);
     width: 660px;
     height: 940px;
@@ -46,7 +45,7 @@ body {
 }
 
 .botones {
-    margin-top: 20px; /* Ajustado para mejor diseño */
+    margin-top: 20px; 
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     gap: 30px;
@@ -76,14 +75,14 @@ body {
 .botones button#suma:hover,
 .botones button#division:hover,
 .botones button#mult:hover {
-    background-color: #6d4c41; /* Color específico al pasar el cursor para operaciones */
+    background-color: #6d4c41; 
 }
 #suma{
     grid-row: span 2;
 }
 #igual{
     background-color: #113858;
-    grid-column: span 3; /* Para que el botón igual ocupe 2 columnas */
+    grid-column: span 3; 
 }
 #AC{
     background-color: red;
